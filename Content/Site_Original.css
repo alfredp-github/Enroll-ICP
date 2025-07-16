@@ -1,0 +1,480 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    /*font-family: 'Open Sans',sans-serif, arial;*/
+    font-family: "Open Sans",Montserrat,Helvetica,Arial,sans-serif !important;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-widthX: 280px;
+}
+
+
+/* ************************************************************************************** */
+/* ************************************************************************************** */
+/* ************************************************************************************** */
+/* ************************************** NEX Section *********************************** */
+/* ************************************************************************************** */
+/* ************************************************************************************** */
+/* ************************************************************************************** */
+.nex-navbar-inverse
+{
+    border-bottom:lightgray 1px solid;
+}
+
+.nex-navbar-fixed-top {
+  /*
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+  */
+  border-width: 0 0 1px;
+}
+
+.nex-layout-2col {
+    border:red 0px solid;
+    text-align:center;
+}
+
+.nex-layout-col1 {
+    margin-bottom:20px !important;
+}
+
+.nexCaptcha1
+{
+width:100%; border-radius:5px; border:0px; padding:8px;
+margin-top:3px;
+}
+
+.nex-btn-link
+{
+    border:#fff 2px solid;
+}
+.nex-btn-link:hover
+{
+    border:#ff572a 2px solid;
+}
+.nex-btn-link2
+{
+    border:#fff 2px solid;
+}
+.nex-btn-link2:hover
+{
+    border:#1e6f9d 2px solid;
+}
+
+.nex-form-row2
+{
+    margin-top:20px;
+}
+
+.nex-title
+{
+    margin:0px; color:#000;
+}
+.nex-required
+{
+    margin-top:0px; color:orangered; font-size:120%;
+}
+.nex-required-asterik {
+font-size:130%;
+}
+.nex-floatL
+{
+float:left;
+}
+.nex-floatR
+{
+float:right;
+}
+.nex-clear
+{
+    clear:both;
+    height:0px;
+    line-height:0px;
+}
+
+.nex-label1 
+{
+    font-size:115%;
+}
+
+/*.RadPicker_MetroTouch .riTextBox */
+.RadInput_MetroTouch .riTextBox 
+{
+    border-radius:5px !important;
+    border:0px !important; 
+    height:36px !important;
+    padding:8px !important;
+}
+.RadInput_MetroTouch
+{
+    height:36px !important;
+}
+
+.RadTabStrip_Silk .rtsSelected 
+{
+    font-weight:bold;
+}
+
+.RadTabStrip_Silk .rtsTxt 
+{
+    color:#000000;
+}
+
+.nex-txt
+{
+    border-radius:5px; 
+    border:lightgray 1px solid; 
+    padding:8px;
+}
+.nex-txt-full
+{
+    width:100%; 
+    border-radius:5px; 
+    border:lightgray 1px solid; 
+    padding:8px;
+}
+.nex-txt-full-white
+{
+    width:100%; 
+    border-radius:5px; 
+    border:0px; 
+    padding:8px;
+}
+
+.clickableDiv  
+{
+position: relative;
+}
+
+.nex-radwindow700
+{
+     width:700px !important;
+}
+
+.centerPopup325
+{
+    position:absolute; top:20px; left: 50%; width:325px;
+}
+.centerPopup400
+{
+    position:absolute; top:20px; left: 50%; width:400px;
+}
+.centerPopup325-b
+{
+    position:relative; left: -50%; padding:20px 26px 23px 26px; background-color:#dbe6de; border-radius:10px; border-bottom:gray 1px solid;
+}
+
+.centerPopup_Fixed_450
+{
+    position:absolute; top:20%; left: 50%; width:450px;
+}
+.centerPopup_Fixed_450-b
+{
+    position:relative; left: -50%; padding:0px; border-radius:10px; 
+}
+
+.tbl1500 .spanLbl1
+{
+    font-weight:bold;
+    font-size:125%;
+    width:20px;
+    display:inline-block;
+    float:left;
+    margin-right:3px;
+}
+
+.txt1
+{
+ padding:5px;
+ border:#8E8E8E 1px solid;
+ border-right:#8E8E8E 1px solid;
+ border-bottom:#B8B8B8 1px solid;    
+}
+.txt50
+{
+    width:50px;
+}
+.txt100
+{
+    width:100px;
+}
+
+.floatL{
+    float:left;
+    margin-right:10px;
+}
+.floatL_lbl{
+    float:left;
+    margin-top:5px;
+}
+.floatR{
+    float:right;
+}
+.nex-lbl{
+    margin-top:5px;
+}
+
+.nex-signedin
+{
+    position:absolute; top:10px; right:0px;
+    font-size:110%;
+}
+
+.nex-page-title
+{
+    margin-bottom:30px; padding-bottom:20px; border-bottom:lightgray 1px solid
+}
+
+.nex-no-bold label
+{
+    font-weight:normal !important;
+}
+
+.nex-message-box
+{
+    width:500px;
+}
+
+.BigCheck
+{
+    cursor:pointer;
+}
+
+.BigCheck input
+{
+    float:left;
+    display: inline;
+    padding:0;
+    margin:0px;
+    padding-right:5px;
+    height: 20px;
+    width: 20px;   
+}
+
+.BigCheck_Float
+{
+    cursor:pointer;
+}
+
+.BigCheck_Float input
+{
+    float:left;
+    display: inline;
+    padding:0;
+    margin:0px;
+    margin-right:6px;
+    padding-right:5px;
+    height: 20px;
+    width: 20px;   
+}
+.BigCheck_Float label
+{
+    float:left;
+    width:90%;
+    font-weight:normal;
+    font-size:115%;
+}
+
+.BigCheck_Flow
+{
+    cursor:pointer;
+}
+
+.BigCheck_Flow input
+{
+    display: inline;
+    padding:0;
+    margin:0px;
+    margin-right:6px;
+    padding-right:5px;
+    height: 23px;
+    width: 23px;   
+}
+
+.BigCheck_Flow label
+{
+font-weight:normal;
+}
+
+
+.MedCheck
+{
+    cursor:pointer;
+}
+
+.MedCheck input
+{
+    display: inline;
+    padding:0;
+    margin:0px;
+    padding-right:5px;
+    height: 15px;
+    width: 15px;   
+}
+
+
+
+
+/*RadAsynchUpload*/
+.ruFakeInput{
+    padding:5px !important;
+}
+.ruButton 
+{
+    padding:10px 40px 30px 40px !important;
+}
+.ruFileInput
+{
+    padding:10px !important;
+        border:green 2px solid !important;
+
+}
+
+.nex-show-border div .riTextBox 
+{
+    border-radius:5px !important;
+   /* border:0px !important; */
+   border:lightgray 1px solid !important;
+    height:36px !important;
+    padding:8px !important;
+}
+
+@media screen and (max-width: 700px) {
+    .nex-radwindow700 {
+        width:90% !important;
+    }
+
+    .nex-message-box
+    {
+        width:90% !important;
+        left:10px !important;
+    }
+
+    .nex-title
+    {
+        margin:0px; color:#000;
+        margin-left:10px;
+        margin-right:10px;
+
+    }
+    .nex-required
+    {
+        margin-top:5px; color:orangered;
+        margin-right:10px;
+    }
+
+    .XcenterPopup325
+    {
+        position:initial; top:20px; left: 5%; width:90%;
+    }
+    .centerPopup400
+    {
+        position:initial; top:20px; left: 5%; width:90%;
+    }
+    .XcenterPopup325-b
+    {
+        position:initial; left:0; padding:20px 26px 23px 26px;
+    }
+    .centerPopup400-b
+    {
+        position:relative; left: -50%; padding:0px; border-radius:10px; 
+    }
+
+    .nex-signedin
+    {
+        position:absolute; top:10px; right:10px;
+    }
+
+    .nex-page-title
+    {
+        margin-bottom:30px; padding:0px 20px 20px 20px; border-bottom:lightgray 1px solid
+    }
+
+}
+/* End of - @media screen and (max-width: 700px) */
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 860px) and (min-width: 769px) {
+
+    .nex-label-wide1 {
+        width: 60%;
+    }
+
+    .nex-label-top-br {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .nex-title
+    {
+        margin-left:20px;
+    }
+
+    .nex-required
+    {
+        margin-right:20px;
+    }
+
+    .nex-page-content1
+    {
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+}
+@media screen and (max-width: 449px) {
+    .nex-label-wide1 {
+        width: 60%;
+    }
+
+    .nex-label-top-br {
+        display: block !important;
+    }
+
+    .centerPopup_Fixed_450
+    {
+        width:90%;
+    }
+
+    .centerPopup325
+    {
+        
+    }
+}
+

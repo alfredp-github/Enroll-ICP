@@ -1,0 +1,171 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site_Original.master.cs" Inherits="SiteMaster_Original" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BRHPC - Insurance Benefit Management Services</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+
+        <link runat="server" id="linkSiteCss" href="~/Content/Site_Original.css" rel="stylesheet" type="text/css" />
+        <link runat="server" id="link1" href="~/Content/bootstrap_Original.css" rel="stylesheet" type="text/css" />
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+
+    <style type="text/css">
+
+        .nex-btn-lg {
+          padding: 10px 16px;
+          font-size: 18px;
+          line-height: 1.33;
+          border-radius: 6px;
+        }
+        
+        @media screen and (max-width: 1023px) {
+
+            .nex-content
+            {
+                width:96% !important;
+            }
+            .nex-box-1, .nex-box-2
+            {
+                min-height:100% !important;
+                borderX:blue 3px solid !important;
+            }
+            .nex-box-1-area-button
+            {
+                position:relative !important;
+                padding-top:20px !important;
+            }
+            .nex-mobile-100-perc
+            {
+                widthX:90% !important;
+                borderX:green 3px solid !important;
+            }
+
+            .nex-master-title
+            {
+                width:94% !important;
+            }
+
+            .col-md-6
+            {
+                width:49% !important;
+                float:left !important;
+            }
+            .nex-box-2-wrapX
+            {
+                padding:0px !important;
+                margin-top:15px !important;
+            }
+            .nex-phone-help
+            {
+                display:block !important;
+                margin-top:10px;
+            }
+        }
+
+        @media screen and (max-width: 799px) {
+
+            .nex-content
+            {
+                width:90% !important;
+            }
+            .nex-box-1, .nex-box-2
+            {
+                min-height:100% !important;
+                borderX:red 3px solid !important;
+            }
+            .nex-box-1-area-button
+            {
+                position:relative !important;
+                padding-top:20px !important;
+            }
+            .nex-mobile-100-perc
+            {
+                width:90% !important;
+                borderX:green 3px solid !important;
+            }
+
+            .nex-master-title
+            {
+                width:94% !important;
+            }
+
+            .col-md-6
+            {
+                width:96% !important;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            .nex-box-2-wrap
+            {
+                padding:0px !important;
+                margin-top:15px !important;
+            }
+
+            .nex-phone-help
+            {
+                display:inline !important;
+                margin-top:0px !important;
+            }
+        }
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <form runat="server">
+
+
+         <div class="" style="margin:10px 0px 10px 0px; margin-left:auto; margin-right:auto;  text-align:center">
+            <div class="containerX" style="margin-bottom:20px; padding:0px;">
+                
+                    <a href="Default.aspx">
+                    <asp:Image ID="Image1" runat="server" Visible="false" AlternateText="BRHPC" ImageUrl="Content/Images/logo6.png" style="margin:0px 0px 0px 0px; "/>
+                    <asp:Image ID="Image2" runat="server"  AlternateText="BRHPC" ImageUrl="img/logo6.png" style="margin:0px 0px 0px 0px; "/>
+
+                    </a>
+                <div style="font-size:120%; margin-top:10px; margin-bottom:10px">
+                    Broward Regional Health Planning Council
+                </div>
+                <div runat="server" id="divTitle" class="nex-master-title" style="font-size:200%; font-weight:bold; margin-left:auto; margin-right:auto">
+                    Insurance Benefit Management Services
+                    <asp:Label ID="lblPhoneHelp" runat="server" CssClass="nex-phone-help" Text="" style="font-size:80%; color:orangered"></asp:Label>
+                </div>
+
+            </div>
+        </div>
+        <div style="clear:both"></div>
+
+            <div runat="server" id="divMasterMain" class="nex-content" style="border-top:lightgray 0px solid; width:1024px; margin-left:auto; margin-right:auto">
+                <div class="container body-contentX" style="positionX:relative; padding-left:0px; padding-right:0px; border:red 0px solid; padding:10px 0px 20px 0px">
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>                
+
+                    <div style="clear:both"></div>
+                    <hr />
+                    <footer style="font-size:90%">
+                        <p>&copy; <%: DateTime.Now.Year %> - Broward Regional Health Planning Council</p>
+                    </footer>
+
+                </div>
+            </div>
+
+
+
+
+    </form>
+</body>
+</html>

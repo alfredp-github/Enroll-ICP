@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Insurance_Enrollment_2024.MvcApplication" Language="C#" %>
